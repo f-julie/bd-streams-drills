@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TransactionQuestionsTest" tests="7" skipped="0" failures="1" errors="0" timestamp="2024-08-31T20:08:30" hostname="DESKTOP-URGQT26" time="0.055">
+<testsuite name="TransactionQuestionsTest" tests="7" skipped="0" failures="1" errors="0" timestamp="2024-12-24T20:34:50" hostname="DESKTOP-URGQT26" time="0.055">
   <properties/>
-  <testcase name="smallestTransaction_multipleTransactions_returnsLowest()" classname="TransactionQuestionsTest" time="0.024">
+  <testcase name="smallestTransaction_multipleTransactions_returnsLowest()" classname="TransactionQuestionsTest" time="0.025">
     <failure message="java.lang.UnsupportedOperationException" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
 	at TransactionQuestions.smallestTransaction(TransactionQuestions.java:130)
 	at TransactionQuestionsTest.smallestTransaction_multipleTransactions_returnsLowest(TransactionQuestionsTest.java:71)
@@ -97,12 +97,12 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="isMilanBased_containsMilanBasedTraders_returnsTrue()" classname="TransactionQuestionsTest" time="0.006"/>
+  <testcase name="isMilanBased_containsMilanBasedTraders_returnsTrue()" classname="TransactionQuestionsTest" time="0.008"/>
   <testcase name="highestValueTrade_multipleTransactions_returnsHighest()" classname="TransactionQuestionsTest" time="0.006"/>
-  <testcase name="uniqueCities_multipleCities_returnsUniqueCities()" classname="TransactionQuestionsTest" time="0.002"/>
+  <testcase name="uniqueCities_multipleCities_returnsUniqueCities()" classname="TransactionQuestionsTest" time="0.001"/>
   <testcase name="cambridgeTraders_withCambridgeTraders_returnsCambridgeTradersSortedAlphabetically()" classname="TransactionQuestionsTest" time="0.002"/>
-  <testcase name="transactions2011_withTransactions_returnsTransactionsSortedAscending()" classname="TransactionQuestionsTest" time="0.002"/>
-  <testcase name="traderNames_multipleTraders_concatenatesNamesSortedAlphabetically()" classname="TransactionQuestionsTest" time="0.007"/>
+  <testcase name="transactions2011_withTransactions_returnsTransactionsSortedAscending()" classname="TransactionQuestionsTest" time="0.003"/>
+  <testcase name="traderNames_multipleTraders_concatenatesNamesSortedAlphabetically()" classname="TransactionQuestionsTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
